@@ -1,0 +1,95 @@
+body{
+    background-color: #cce5ff;
+}
+.container{
+    background-color: aliceblue;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+h3{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.foto1{
+    width: 40%;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+}
+.foto2{
+    width: 40%;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+.foto3{
+    width: 40%;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+.foto4{
+    width: 40%;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+.botao1{
+    text-align: center;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+.botao1 button {
+    padding: 15px 40px;
+    font-size: 15px;   
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: #3399FF;
+    transition: all 0.2s ease;
+}
+.botao1 button:active {
+    transform: scale(0.70);
+}
+.botao1 button:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: #267acc;
+}
+
+.video1{
+    width: 40%;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quarto1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px;
+}
+.quarto2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px;
+}
+.quarto3{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px;
+}
